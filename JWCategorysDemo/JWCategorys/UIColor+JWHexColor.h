@@ -1,5 +1,5 @@
 //
-//  UIImage+JWHexColor.h
+//  UIColor+JWHexColor.h
 //  JWCategorysDemo
 //
 //  Created by wangjun on 16/6/1.
@@ -15,7 +15,7 @@
  *  支持通过颜色获取其对应的十进制字符串
  */
 
-@interface UIImage (JWHexColor)
+@interface UIColor (JWHexColor)
 
 /**
  *  通过一个十进制字符串，获取对应的颜色，透明度默认1
@@ -42,5 +42,12 @@
  *  @return 互补色
  */
 - (UIColor *)JW_ColorWithComplementary;
+
+/**
+ *  获取当前颜色的Hex值
+ *
+ *  @return 返回当前颜色的Hex值
+ */
+- (NSString *)JW_HexValues;
 
 @end

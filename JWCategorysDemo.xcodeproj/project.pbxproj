@@ -16,7 +16,7 @@
 		DAC729581CFEDDE900978246 /* JWCategorysDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729571CFEDDE900978246 /* JWCategorysDemoTests.m */; };
 		DAC729631CFEDDE900978246 /* JWCategorysDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729621CFEDDE900978246 /* JWCategorysDemoUITests.m */; };
 		DAC729761CFEE17C00978246 /* UIImage+JWQRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */; };
-		DAC729791CFEE18C00978246 /* UIImage+JWHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729781CFEE18C00978246 /* UIImage+JWHexColor.m */; };
+		DAC7297C1CFEE56D00978246 /* UIColor+JWHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		DAC729641CFEDDE900978246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC729741CFEE17C00978246 /* UIImage+JWQRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWQRImage.h"; sourceTree = "<group>"; };
 		DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWQRImage.m"; sourceTree = "<group>"; };
-		DAC729771CFEE18C00978246 /* UIImage+JWHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWHexColor.h"; sourceTree = "<group>"; };
-		DAC729781CFEE18C00978246 /* UIImage+JWHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWHexColor.m"; sourceTree = "<group>"; };
+		DAC7297A1CFEE56D00978246 /* UIColor+JWHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JWHexColor.h"; sourceTree = "<group>"; };
+		DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JWHexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +152,8 @@
 			children = (
 				DAC729741CFEE17C00978246 /* UIImage+JWQRImage.h */,
 				DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */,
-				DAC729771CFEE18C00978246 /* UIImage+JWHexColor.h */,
-				DAC729781CFEE18C00978246 /* UIImage+JWHexColor.m */,
+				DAC7297A1CFEE56D00978246 /* UIColor+JWHexColor.h */,
+				DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */,
 			);
 			path = JWCategorys;
 			sourceTree = "<group>";
@@ -289,9 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC729451CFEDDE800978246 /* ViewController.m in Sources */,
-				DAC729791CFEE18C00978246 /* UIImage+JWHexColor.m in Sources */,
 				DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */,
 				DAC7293F1CFEDDE800978246 /* main.m in Sources */,
+				DAC7297C1CFEE56D00978246 /* UIColor+JWHexColor.m in Sources */,
 				DAC729761CFEE17C00978246 /* UIImage+JWQRImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

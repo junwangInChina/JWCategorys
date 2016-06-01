@@ -1,14 +1,14 @@
 //
-//  UIImage+JWHexColor.m
+//  UIColor+JWHexColor.m
 //  JWCategorysDemo
 //
 //  Created by wangjun on 16/6/1.
 //  Copyright © 2016年 wangjun. All rights reserved.
 //
 
-#import "UIImage+JWHexColor.h"
+#import "UIColor+JWHexColor.h"
 
-@implementation UIImage (JWHexColor)
+@implementation UIColor (JWHexColor)
 
 + (UIColor *)JW_ColorWithHexString:(NSString *)hexString
 {
