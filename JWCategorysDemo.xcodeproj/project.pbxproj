@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7F76D51CFEE78800BBAC97 /* NSDate+JWTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7F76D41CFEE78800BBAC97 /* NSDate+JWTime.m */; };
 		DAC7293F1CFEDDE800978246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC7293E1CFEDDE800978246 /* main.m */; };
 		DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729411CFEDDE800978246 /* AppDelegate.m */; };
 		DAC729451CFEDDE800978246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729441CFEDDE800978246 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA7F76D31CFEE78800BBAC97 /* NSDate+JWTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JWTime.h"; sourceTree = "<group>"; };
+		DA7F76D41CFEE78800BBAC97 /* NSDate+JWTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JWTime.m"; sourceTree = "<group>"; };
 		DAC7293A1CFEDDE800978246 /* JWCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC7293E1CFEDDE800978246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAC729401CFEDDE800978246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 				DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */,
 				DAC7297A1CFEE56D00978246 /* UIColor+JWHexColor.h */,
 				DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */,
+				DA7F76D31CFEE78800BBAC97 /* NSDate+JWTime.h */,
+				DA7F76D41CFEE78800BBAC97 /* NSDate+JWTime.m */,
 			);
 			path = JWCategorys;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7F76D51CFEE78800BBAC97 /* NSDate+JWTime.m in Sources */,
 				DAC729451CFEDDE800978246 /* ViewController.m in Sources */,
 				DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */,
 				DAC7293F1CFEDDE800978246 /* main.m in Sources */,
