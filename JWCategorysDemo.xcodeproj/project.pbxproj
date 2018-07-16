@@ -50,7 +50,6 @@
 		DA32171D20FC80580087D552 /* NSDate+JWTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JWTime.h"; sourceTree = "<group>"; };
 		DA32172020FC80580087D552 /* UIImage+JWQRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWQRImage.h"; sourceTree = "<group>"; };
 		DA32172120FC80580087D552 /* UIImage+JWQRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWQRImage.m"; sourceTree = "<group>"; };
-		DA32172720FC80780087D552 /* JWCatogoryts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCatogoryts.h; sourceTree = "<group>"; };
 		DA32173A20FC81D80087D552 /* NSSet+JWUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+JWUnicode.h"; sourceTree = "<group>"; };
 		DA32173B20FC81D80087D552 /* NSSet+JWUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+JWUnicode.m"; sourceTree = "<group>"; };
 		DA32173D20FC81E30087D552 /* NSArray+JWUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JWUnicode.h"; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		DA32174720FC82650087D552 /* UINavigationItem+JWMargin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+JWMargin.m"; sourceTree = "<group>"; };
 		DA32174920FC828A0087D552 /* UIButton+JWEnlargeEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWEnlargeEdge.h"; sourceTree = "<group>"; };
 		DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWEnlargeEdge.m"; sourceTree = "<group>"; };
+		DA32174C20FC985C0087D552 /* JWCategorys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCategorys.h; sourceTree = "<group>"; };
 		DAC7293A1CFEDDE800978246 /* JWCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC7293E1CFEDDE800978246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAC729401CFEDDE800978246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 				DA32172320FC80580087D552 /* NavigationItem */,
 				DA32172220FC80580087D552 /* Unicode */,
 				DA32171E20FC80580087D552 /* Window */,
-				DA32172720FC80780087D552 /* JWCatogoryts.h */,
+				DA32174C20FC985C0087D552 /* JWCategorys.h */,
 			);
 			path = JWCategorys;
 			sourceTree = "<group>";

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JWCategorys"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "开发过程中发现的、收集的、编写的一些有用的类别"
 
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #支持版本
   s.platform     = :ios, "7.0"
   #版本地址
-  s.source       = { :git => "https://github.com/junwangInChina/JWCategorys.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/junwangInChina/JWCategorys.git", :tag => "0.0.6" }
  
 
   #库文件路径（相对于.podspec文件的路径）

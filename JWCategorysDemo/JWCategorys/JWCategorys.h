@@ -1,13 +1,13 @@
 //
-//  JWCatogoryts.h
+//  JWCategorys.h
 //  JWCategorysDemo
 //
 //  Created by wangjun on 2018/7/16.
 //  Copyright © 2018年 wangjun. All rights reserved.
 //
 
-#ifndef JWCatogoryts_h
-#define JWCatogoryts_h
+#ifndef JWCategorys_h
+#define JWCategorys_h
 
 #import "UIButton+JWEnlargeEdge.h"
 
@@ -25,4 +25,4 @@
 
 #import "UIWindow+JWScreenshots.h"
 
-#endif /* JWCatogoryts_h */
+#endif /* JWCategorys_h */
