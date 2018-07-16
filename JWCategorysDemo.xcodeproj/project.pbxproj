@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA7F76D51CFEE78800BBAC97 /* NSDate+JWTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7F76D41CFEE78800BBAC97 /* NSDate+JWTime.m */; };
+		DA32172420FC80580087D552 /* UIColor+JWHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32171920FC80570087D552 /* UIColor+JWHexColor.m */; };
+		DA32172520FC80580087D552 /* NSDate+JWTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32171C20FC80580087D552 /* NSDate+JWTime.m */; };
+		DA32172620FC80580087D552 /* UIImage+JWQRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32172120FC80580087D552 /* UIImage+JWQRImage.m */; };
+		DA32173C20FC81D80087D552 /* NSSet+JWUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32173B20FC81D80087D552 /* NSSet+JWUnicode.m */; };
+		DA32173F20FC81E30087D552 /* NSArray+JWUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32173E20FC81E30087D552 /* NSArray+JWUnicode.m */; };
+		DA32174220FC81EF0087D552 /* NSDictionary+JWUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174120FC81EF0087D552 /* NSDictionary+JWUnicode.m */; };
+		DA32174520FC823B0087D552 /* UIWindow+JWScreenshots.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174420FC823B0087D552 /* UIWindow+JWScreenshots.m */; };
+		DA32174820FC82650087D552 /* UINavigationItem+JWMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174720FC82650087D552 /* UINavigationItem+JWMargin.m */; };
+		DA32174B20FC828A0087D552 /* UIButton+JWEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */; };
 		DAC7293F1CFEDDE800978246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC7293E1CFEDDE800978246 /* main.m */; };
 		DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729411CFEDDE800978246 /* AppDelegate.m */; };
 		DAC729451CFEDDE800978246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729441CFEDDE800978246 /* ViewController.m */; };
@@ -16,8 +24,6 @@
 		DAC7294D1CFEDDE800978246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC7294B1CFEDDE800978246 /* LaunchScreen.storyboard */; };
 		DAC729581CFEDDE900978246 /* JWCategorysDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729571CFEDDE900978246 /* JWCategorysDemoTests.m */; };
 		DAC729631CFEDDE900978246 /* JWCategorysDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729621CFEDDE900978246 /* JWCategorysDemoUITests.m */; };
-		DAC729761CFEE17C00978246 /* UIImage+JWQRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */; };
-		DAC7297C1CFEE56D00978246 /* UIColor+JWHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +44,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA7F76D31CFEE78800BBAC97 /* NSDate+JWTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JWTime.h"; sourceTree = "<group>"; };
-		DA7F76D41CFEE78800BBAC97 /* NSDate+JWTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JWTime.m"; sourceTree = "<group>"; };
+		DA32171920FC80570087D552 /* UIColor+JWHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JWHexColor.m"; sourceTree = "<group>"; };
+		DA32171A20FC80570087D552 /* UIColor+JWHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JWHexColor.h"; sourceTree = "<group>"; };
+		DA32171C20FC80580087D552 /* NSDate+JWTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JWTime.m"; sourceTree = "<group>"; };
+		DA32171D20FC80580087D552 /* NSDate+JWTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JWTime.h"; sourceTree = "<group>"; };
+		DA32172020FC80580087D552 /* UIImage+JWQRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWQRImage.h"; sourceTree = "<group>"; };
+		DA32172120FC80580087D552 /* UIImage+JWQRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWQRImage.m"; sourceTree = "<group>"; };
+		DA32172720FC80780087D552 /* JWCatogoryts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCatogoryts.h; sourceTree = "<group>"; };
+		DA32173A20FC81D80087D552 /* NSSet+JWUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+JWUnicode.h"; sourceTree = "<group>"; };
+		DA32173B20FC81D80087D552 /* NSSet+JWUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+JWUnicode.m"; sourceTree = "<group>"; };
+		DA32173D20FC81E30087D552 /* NSArray+JWUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JWUnicode.h"; sourceTree = "<group>"; };
+		DA32173E20FC81E30087D552 /* NSArray+JWUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JWUnicode.m"; sourceTree = "<group>"; };
+		DA32174020FC81EF0087D552 /* NSDictionary+JWUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JWUnicode.h"; sourceTree = "<group>"; };
+		DA32174120FC81EF0087D552 /* NSDictionary+JWUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JWUnicode.m"; sourceTree = "<group>"; };
+		DA32174320FC823B0087D552 /* UIWindow+JWScreenshots.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JWScreenshots.h"; sourceTree = "<group>"; };
+		DA32174420FC823B0087D552 /* UIWindow+JWScreenshots.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JWScreenshots.m"; sourceTree = "<group>"; };
+		DA32174620FC82650087D552 /* UINavigationItem+JWMargin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+JWMargin.h"; sourceTree = "<group>"; };
+		DA32174720FC82650087D552 /* UINavigationItem+JWMargin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+JWMargin.m"; sourceTree = "<group>"; };
+		DA32174920FC828A0087D552 /* UIButton+JWEnlargeEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWEnlargeEdge.h"; sourceTree = "<group>"; };
+		DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWEnlargeEdge.m"; sourceTree = "<group>"; };
 		DAC7293A1CFEDDE800978246 /* JWCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC7293E1CFEDDE800978246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAC729401CFEDDE800978246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,10 +79,6 @@
 		DAC7295E1CFEDDE900978246 /* JWCategorysDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWCategorysDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC729621CFEDDE900978246 /* JWCategorysDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWCategorysDemoUITests.m; sourceTree = "<group>"; };
 		DAC729641CFEDDE900978246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAC729741CFEE17C00978246 /* UIImage+JWQRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWQRImage.h"; sourceTree = "<group>"; };
-		DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWQRImage.m"; sourceTree = "<group>"; };
-		DAC7297A1CFEE56D00978246 /* UIColor+JWHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JWHexColor.h"; sourceTree = "<group>"; };
-		DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JWHexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +106,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA32171720FC80570087D552 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DA32174920FC828A0087D552 /* UIButton+JWEnlargeEdge.h */,
+				DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		DA32171820FC80570087D552 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				DA32171A20FC80570087D552 /* UIColor+JWHexColor.h */,
+				DA32171920FC80570087D552 /* UIColor+JWHexColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		DA32171B20FC80580087D552 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				DA32171D20FC80580087D552 /* NSDate+JWTime.h */,
+				DA32171C20FC80580087D552 /* NSDate+JWTime.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		DA32171E20FC80580087D552 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				DA32174320FC823B0087D552 /* UIWindow+JWScreenshots.h */,
+				DA32174420FC823B0087D552 /* UIWindow+JWScreenshots.m */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		DA32171F20FC80580087D552 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DA32172020FC80580087D552 /* UIImage+JWQRImage.h */,
+				DA32172120FC80580087D552 /* UIImage+JWQRImage.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		DA32172220FC80580087D552 /* Unicode */ = {
+			isa = PBXGroup;
+			children = (
+				DA32173A20FC81D80087D552 /* NSSet+JWUnicode.h */,
+				DA32173B20FC81D80087D552 /* NSSet+JWUnicode.m */,
+				DA32173D20FC81E30087D552 /* NSArray+JWUnicode.h */,
+				DA32173E20FC81E30087D552 /* NSArray+JWUnicode.m */,
+				DA32174020FC81EF0087D552 /* NSDictionary+JWUnicode.h */,
+				DA32174120FC81EF0087D552 /* NSDictionary+JWUnicode.m */,
+			);
+			path = Unicode;
+			sourceTree = "<group>";
+		};
+		DA32172320FC80580087D552 /* NavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				DA32174620FC82650087D552 /* UINavigationItem+JWMargin.h */,
+				DA32174720FC82650087D552 /* UINavigationItem+JWMargin.m */,
+			);
+			path = NavigationItem;
+			sourceTree = "<group>";
+		};
 		DAC729311CFEDDE800978246 = {
 			isa = PBXGroup;
 			children = (
@@ -153,12 +239,14 @@
 		DAC729701CFEDE3200978246 /* JWCategorys */ = {
 			isa = PBXGroup;
 			children = (
-				DAC729741CFEE17C00978246 /* UIImage+JWQRImage.h */,
-				DAC729751CFEE17C00978246 /* UIImage+JWQRImage.m */,
-				DAC7297A1CFEE56D00978246 /* UIColor+JWHexColor.h */,
-				DAC7297B1CFEE56D00978246 /* UIColor+JWHexColor.m */,
-				DA7F76D31CFEE78800BBAC97 /* NSDate+JWTime.h */,
-				DA7F76D41CFEE78800BBAC97 /* NSDate+JWTime.m */,
+				DA32171720FC80570087D552 /* Button */,
+				DA32171820FC80570087D552 /* Color */,
+				DA32171B20FC80580087D552 /* Date */,
+				DA32171F20FC80580087D552 /* Image */,
+				DA32172320FC80580087D552 /* NavigationItem */,
+				DA32172220FC80580087D552 /* Unicode */,
+				DA32171E20FC80580087D552 /* Window */,
+				DA32172720FC80780087D552 /* JWCatogoryts.h */,
 			);
 			path = JWCategorys;
 			sourceTree = "<group>";
@@ -293,12 +381,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7F76D51CFEE78800BBAC97 /* NSDate+JWTime.m in Sources */,
+				DA32172420FC80580087D552 /* UIColor+JWHexColor.m in Sources */,
+				DA32174220FC81EF0087D552 /* NSDictionary+JWUnicode.m in Sources */,
+				DA32174520FC823B0087D552 /* UIWindow+JWScreenshots.m in Sources */,
+				DA32172620FC80580087D552 /* UIImage+JWQRImage.m in Sources */,
+				DA32174820FC82650087D552 /* UINavigationItem+JWMargin.m in Sources */,
 				DAC729451CFEDDE800978246 /* ViewController.m in Sources */,
 				DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */,
+				DA32172520FC80580087D552 /* NSDate+JWTime.m in Sources */,
 				DAC7293F1CFEDDE800978246 /* main.m in Sources */,
-				DAC7297C1CFEE56D00978246 /* UIColor+JWHexColor.m in Sources */,
-				DAC729761CFEE17C00978246 /* UIImage+JWQRImage.m in Sources */,
+				DA32173C20FC81D80087D552 /* NSSet+JWUnicode.m in Sources */,
+				DA32173F20FC81E30087D552 /* NSArray+JWUnicode.m in Sources */,
+				DA32174B20FC828A0087D552 /* UIButton+JWEnlargeEdge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
