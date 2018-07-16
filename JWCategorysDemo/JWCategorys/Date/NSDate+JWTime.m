@@ -438,7 +438,7 @@ static NSString *defaultCalendarKey = @"currentCalentar_key";
     NSCalendar *calendar = [self currentCalendar];
     NSDateComponents *componentsNow = [calendar components:NSWeekCalendarUnit fromDate:date];
     NSDateComponents *componentsAnother = [calendar components:NSWeekCalendarUnit fromDate:otherDate];
-    if (componentsNow.week != componentsAnother.week)
+    if (componentsNow.weekOfYear != componentsAnother.weekOfYear)
     {
         return NO;
     }
