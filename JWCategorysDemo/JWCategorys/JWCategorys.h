@@ -16,6 +16,7 @@
 #import "NSDate+JWTime.h"
 
 #import "UIImage+JWQRImage.h"
+#import "UIImage+JWColor.h"
 
 #import "UINavigationItem+JWMargin.h"
 
