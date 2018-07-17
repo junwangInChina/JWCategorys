@@ -16,6 +16,7 @@
 		DA32174520FC823B0087D552 /* UIWindow+JWScreenshots.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174420FC823B0087D552 /* UIWindow+JWScreenshots.m */; };
 		DA32174820FC82650087D552 /* UINavigationItem+JWMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174720FC82650087D552 /* UINavigationItem+JWMargin.m */; };
 		DA32174B20FC828A0087D552 /* UIButton+JWEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */; };
+		DABA58CB20FDC97100AD54EE /* UIImage+JWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA58CA20FDC97100AD54EE /* UIImage+JWColor.m */; };
 		DAC7293F1CFEDDE800978246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC7293E1CFEDDE800978246 /* main.m */; };
 		DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729411CFEDDE800978246 /* AppDelegate.m */; };
 		DAC729451CFEDDE800978246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729441CFEDDE800978246 /* ViewController.m */; };
@@ -63,6 +64,8 @@
 		DA32174920FC828A0087D552 /* UIButton+JWEnlargeEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWEnlargeEdge.h"; sourceTree = "<group>"; };
 		DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWEnlargeEdge.m"; sourceTree = "<group>"; };
 		DA32174C20FC985C0087D552 /* JWCategorys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCategorys.h; sourceTree = "<group>"; };
+		DABA58C920FDC97100AD54EE /* UIImage+JWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWColor.h"; sourceTree = "<group>"; };
+		DABA58CA20FDC97100AD54EE /* UIImage+JWColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWColor.m"; sourceTree = "<group>"; };
 		DAC7293A1CFEDDE800978246 /* JWCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC7293E1CFEDDE800978246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAC729401CFEDDE800978246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 			children = (
 				DA32172020FC80580087D552 /* UIImage+JWQRImage.h */,
 				DA32172120FC80580087D552 /* UIImage+JWQRImage.m */,
+				DABA58C920FDC97100AD54EE /* UIImage+JWColor.h */,
+				DABA58CA20FDC97100AD54EE /* UIImage+JWColor.m */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				DA32172620FC80580087D552 /* UIImage+JWQRImage.m in Sources */,
 				DA32174820FC82650087D552 /* UINavigationItem+JWMargin.m in Sources */,
 				DAC729451CFEDDE800978246 /* ViewController.m in Sources */,
+				DABA58CB20FDC97100AD54EE /* UIImage+JWColor.m in Sources */,
 				DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */,
 				DA32172520FC80580087D552 /* NSDate+JWTime.m in Sources */,
 				DAC7293F1CFEDDE800978246 /* main.m in Sources */,
