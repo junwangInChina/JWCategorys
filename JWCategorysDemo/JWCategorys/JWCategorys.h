@@ -26,4 +26,6 @@
 
 #import "UIWindow+JWScreenshots.h"
 
+#import "NSString+JWDecimalCalculation.h"
+
 #endif /* JWCategorys_h */

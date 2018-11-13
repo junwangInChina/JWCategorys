@@ -16,6 +16,7 @@
 		DA32174520FC823B0087D552 /* UIWindow+JWScreenshots.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174420FC823B0087D552 /* UIWindow+JWScreenshots.m */; };
 		DA32174820FC82650087D552 /* UINavigationItem+JWMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174720FC82650087D552 /* UINavigationItem+JWMargin.m */; };
 		DA32174B20FC828A0087D552 /* UIButton+JWEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */; };
+		DA9A1F4A219A9C96003D8123 /* NSString+JWDecimalCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9A1F49219A9C96003D8123 /* NSString+JWDecimalCalculation.m */; };
 		DABA58CB20FDC97100AD54EE /* UIImage+JWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA58CA20FDC97100AD54EE /* UIImage+JWColor.m */; };
 		DAC7293F1CFEDDE800978246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC7293E1CFEDDE800978246 /* main.m */; };
 		DAC729421CFEDDE800978246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC729411CFEDDE800978246 /* AppDelegate.m */; };
@@ -64,6 +65,8 @@
 		DA32174920FC828A0087D552 /* UIButton+JWEnlargeEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWEnlargeEdge.h"; sourceTree = "<group>"; };
 		DA32174A20FC828A0087D552 /* UIButton+JWEnlargeEdge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWEnlargeEdge.m"; sourceTree = "<group>"; };
 		DA32174C20FC985C0087D552 /* JWCategorys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCategorys.h; sourceTree = "<group>"; };
+		DA9A1F48219A9C96003D8123 /* NSString+JWDecimalCalculation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JWDecimalCalculation.h"; sourceTree = "<group>"; };
+		DA9A1F49219A9C96003D8123 /* NSString+JWDecimalCalculation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JWDecimalCalculation.m"; sourceTree = "<group>"; };
 		DABA58C920FDC97100AD54EE /* UIImage+JWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JWColor.h"; sourceTree = "<group>"; };
 		DABA58CA20FDC97100AD54EE /* UIImage+JWColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JWColor.m"; sourceTree = "<group>"; };
 		DAC7293A1CFEDDE800978246 /* JWCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +181,15 @@
 			path = NavigationItem;
 			sourceTree = "<group>";
 		};
+		DA9A1F44219A7B31003D8123 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				DA9A1F48219A9C96003D8123 /* NSString+JWDecimalCalculation.h */,
+				DA9A1F49219A9C96003D8123 /* NSString+JWDecimalCalculation.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		DAC729311CFEDDE800978246 = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +256,7 @@
 		DAC729701CFEDE3200978246 /* JWCategorys */ = {
 			isa = PBXGroup;
 			children = (
+				DA9A1F44219A7B31003D8123 /* String */,
 				DA32171720FC80570087D552 /* Button */,
 				DA32171820FC80570087D552 /* Color */,
 				DA32171B20FC80580087D552 /* Date */,
@@ -397,6 +410,7 @@
 				DA32172520FC80580087D552 /* NSDate+JWTime.m in Sources */,
 				DAC7293F1CFEDDE800978246 /* main.m in Sources */,
 				DA32173C20FC81D80087D552 /* NSSet+JWUnicode.m in Sources */,
+				DA9A1F4A219A9C96003D8123 /* NSString+JWDecimalCalculation.m in Sources */,
 				DA32173F20FC81E30087D552 /* NSArray+JWUnicode.m in Sources */,
 				DA32174B20FC828A0087D552 /* UIButton+JWEnlargeEdge.m in Sources */,
 			);

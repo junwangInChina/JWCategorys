@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JWCategorys"
-  s.version      = "0.0.7"
+  s.version      = "0.0.9"
   s.summary      = "开发过程中发现的、收集的、编写的一些有用的类别"
 
 
@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
                   'UIButton+JWEnlargeEdge 动态的增加按钮点击范围' \
                   'UINavigationItem+JWMargin 导航按钮偏移处理' \
                   'NSSet+JWUnicode 、NSArray+JWUnicode 、NSDictionary+JWUnicode 中文字符打印问题' \
-                  'UIWindow+JWScreenshots 屏幕截图方法'
+                  'UIWindow+JWScreenshots 屏幕截图方法' \
+                  'NSString+JWDecimalCalculation 高精度计算'
   #主页
   s.homepage     = "https://github.com/junwangInChina/JWCategorys"
   #证书申明
@@ -24,7 +25,7 @@ Pod::Spec.new do |s|
   #支持版本
   s.platform     = :ios, "7.0"
   #版本地址
-  s.source       = { :git => "https://github.com/junwangInChina/JWCategorys.git", :tag => "0.0.7" }
+  s.source       = { :git => "https://github.com/junwangInChina/JWCategorys.git", :tag => s.version }
  
 
   #库文件路径（相对于.podspec文件的路径）
