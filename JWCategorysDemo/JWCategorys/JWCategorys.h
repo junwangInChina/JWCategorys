@@ -9,7 +9,10 @@
 #ifndef JWCategorys_h
 #define JWCategorys_h
 
+#import "NSString+JWDecimalCalculation.h"
+
 #import "UIButton+JWEnlargeEdge.h"
+#import "UIButton+JWImagePosition.h"
 
 #import "UIColor+JWHexColor.h"
 
@@ -25,7 +28,5 @@
 #import "NSDictionary+JWUnicode.h"
 
 #import "UIWindow+JWScreenshots.h"
-
-#import "NSString+JWDecimalCalculation.h"
 
 #endif /* JWCategorys_h */
